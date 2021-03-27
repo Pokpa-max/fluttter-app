@@ -1,0 +1,212 @@
+class Property {
+  String label;
+  String name;
+  String price;
+  String location;
+  String sqm;
+  String review;
+  String description;
+  String frontImage;
+  String ownerImage;
+  List<String> images;
+
+  Property(
+    this.label,
+    this.name,
+    this.price,
+    this.location,
+    this.sqm,
+    this.review,
+    this.description,
+    this.frontImage,
+    this.ownerImage,
+    this.images,
+  );
+}
+
+List<Property> getPropertyList() {
+  return <Property>[
+    Property(
+      'VENTE',
+      'Chambre Salon',
+      '1500000',
+      'Lambagny',
+      '2,44',
+      '4.4',
+      'Cet appartement est situé a lambagny non loin du carrefour DADIS',
+      'assets/maison1.jpg',
+      'assets/prop1.png',
+      [
+        'assets/int1.jpg',
+        'assets/int2.jpg',
+        'assets/int3.jpg',
+        'assets/int4.jpg',
+        'assets/int5.jpg',
+      ],
+    ),
+    Property(
+      'LOCATION',
+      '2 Chambres Salon',
+      '3500000',
+      'Nongo',
+      '2,44',
+      '4.4',
+      'Cet appartement est situé a Nongo non loin du carrefour Ambillance',
+      'assets/maison2.jpg',
+      'assets/prop2.png',
+      [
+        'assets/int6.jpg',
+        'assets/int7.jpg',
+        'assets/int8.jpg',
+        'assets/int9.jpg',
+        'assets/int10.jpg',
+      ],
+    ),
+    Property(
+      'BAYER',
+      'MAISON R4',
+      '3500000',
+      'Sonfonia',
+      '2,44',
+      '3.4',
+      'Cet appartement est situé a sonfonia non loin du carrefour DADIS',
+      'assets/maison3.png',
+      'Proprietaire',
+      [
+        'assets/int11.jpg',
+        'assets/int12.jpg',
+        'assets/int13.jpg',
+        'assets/int14.jpg',
+        'assets/int15.jpg',
+      ],
+    ),
+    Property(
+      'LOCATION',
+      '2 Chambres Salons',
+      '3500000',
+      'Miniere',
+      '2,44',
+      '4.4',
+      'Cet appartement est situé a la miniere non loin de la Source',
+      'assets/maison4.png',
+      'assets/prop2.png',
+      [
+        'assets/int16.jpg',
+        'assets/int17.jpg',
+        'assets/int18.jpg',
+        'assets/int19.jpg',
+        'dat/int20.jpg',
+      ],
+    ),
+    Property(
+      'VENTE',
+      'MAISON R1',
+      '15000.0000',
+      'Kipe',
+      '2,44',
+      '4.4',
+      'Cet appartement est situé a kipe non loin de prima center',
+      'assets/maison5.jpg',
+      'assets/prop2.png',
+      [
+        'assets/int21.jpg',
+        'assets/int22.jpg',
+        'assets/int23.jpg',
+        'assets/int24.jpg',
+        'assets/int25.jpg',
+      ],
+    ),
+    Property(
+      'VENTE',
+      'MAISON R2',
+      '2000000000',
+      'Dixinn',
+      '2,44',
+      '4.4',
+      'Cet appartement est situé a Dixinn non loin de  Gamal ',
+      'assets/maison6.jpg',
+      'assets/prop2.png',
+      [
+        'assets/int21.jpg',
+        'assets/int22.jpg',
+        'assets/int23.jpg',
+        'assets/int24.jpg',
+        'assets/int25.jpg',
+      ],
+    ),
+    Property(
+      'VENTE',
+      'APPARTEMENT',
+      '2 Millions',
+      'Sangoyah',
+      '2,44',
+      '4.4',
+      'Cet appartement est situé a Sangoyah non loin du carrefour',
+      'assets/maison7.jpg',
+      'assets/prop2.png',
+      [
+        'assets/int26.jpg',
+        'assets/int27.jpg',
+        'assets/int28.jpg',
+        'assets/int29.jpg',
+        'assets/int30.jpg',
+      ],
+    ),
+    Property(
+      'LOCATION',
+      'APPARTEMENT',
+      '2000000',
+      'Matoto',
+      '2,44',
+      '4.4',
+      'Cet appartement est situé a Matoto non loin du carrefour',
+      'assets/maison8.jpg',
+      'assets/prop2.png',
+      [
+        'assets/int31.jpg',
+        'assets/int32.jpg',
+        'assets/int33.jpg',
+        'assets/int34.jpg',
+        'assets/int35.jpg',
+        'assets/int36.jpg',
+      ],
+    ),
+    Property(
+      'VENTE',
+      'Chambre Salon',
+      '1000000',
+      'Cimenterie',
+      '2,44',
+      '4.4',
+      'Cet appartement est situé a la Cimenterienon loin du carrefour',
+      'assets/maison9.jpg',
+      'assets/prop2.png',
+      [
+        'assets/int1.jpg',
+        'assets/int2.jpg',
+        'assets/int3.jpg',
+        'assets/int4.jpg',
+        'assets/int5.jpg',
+      ],
+    ),
+    Property(
+      'LOCATION',
+      '2 Chambres Salon',
+      '3000000',
+      'Cobaya',
+      '2,44',
+      '4.4',
+      'Cet appartement est situé a Cobay',
+      'assets/maison10.jpg',
+      'assets/prop2.png',
+      [
+        'assets/int6.jpg',
+        'assets/int7.jpg',
+        'assets/int8.jpg',
+        'assets/int9.jpg',
+        'assets/int10.jpg',
+      ],
+    ),
+  ];
+}
+
